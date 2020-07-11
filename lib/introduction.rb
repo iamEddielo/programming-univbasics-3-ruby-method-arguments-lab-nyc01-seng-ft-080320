@@ -10,7 +10,8 @@ def introduction_with_language(name,language)
 end
 
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
-def introduction_with_language(name,language)
+
+def introduction_with_language_optional(name,language = "Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
 
