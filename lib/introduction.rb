@@ -3,9 +3,10 @@ def introduction(name)
   puts "Hi, my name is #{name}"
 end
 
-  
 # the answers. You should ONLY check those answers if you get totally stuck. The important
 
+def introduction_with_language(name,language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
